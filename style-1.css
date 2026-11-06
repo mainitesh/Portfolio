@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    background-color: #0645ad;
+    color: rgb(255, 254, 254);
+    padding: 15px 25px;
+
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 25px;
+}
+
+
+.intro h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.developer {
+    color: rgb(255, 116, 66);
+}
+
+.intro p {
+    color: #555;
+    margin-top: 15px;
+}
+
+.photo {
+    width: 40%;
+    text-align: center;
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.about {
+    padding: 20px 25px;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+}
+
+
+
+
+.skills {
+    padding: 20px 25px;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+}
+
+.skill-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 0 15px;
+}
+
+.box {
+    background-color: #0645ad;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
+
+.projects {
+    padding: 20px 25px;
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+}
+
+.project-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: 60%;
+    margin: auto;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    /* min-height: 100px; */
+}
+
+
+.contact {
+    padding: 20px 25px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: white;
+    width: 35%;
+    margin: auto;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+textarea {
+    height: 50px;
+}
+
+button {
+    background-color: #0645ad;
+    color: white;
+    border: none;
+    padding: 10px;
+  
+}
+
+
+
+
+
+.footer {
+    background-color: #0645ad;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+
+
+
+.back {
+    text-align: right;
+    padding: 15px;
+}
+
+.back a {
+    background-color: #0645ad;
+    color: white;
+    padding: 8px;
+}
+
+
